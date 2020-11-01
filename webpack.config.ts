@@ -3,7 +3,7 @@ import * as path from 'path';
 import HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const entry: webpack.Entry = {
-  'dacapo-webapp': path.resolve(__dirname, './src/app.tsx')
+  'react-typescript-template-app': path.resolve(__dirname, './src/app.tsx')
 };
 
 const output: webpack.Output = {
